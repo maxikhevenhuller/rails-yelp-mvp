@@ -5,7 +5,7 @@
        if @review.save
          redirect_to @restaurant
        else
-         render 'restaurants/show'
+         render "restaurants/show"
        end
      end
      private
